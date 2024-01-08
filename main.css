@@ -1,0 +1,226 @@
+header, nav, main, aside, section {
+    display: block;
+} 
+
+body {
+    background: rgba(135, 207, 248, 0.774) url('images/pex.jpg');
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+
+#wrap {
+    background:rgba(133, 199, 236, 0.8);
+    width: 85%;
+    margin: 0 auto;
+    min-width: 1100px;
+    border: 1px solid #333;
+    border-radius: 23px;
+}
+
+header{
+    padding:40px 80px;
+}
+
+header h1{
+    font-family: 'Raleway', sans-serif;
+    color:#F2D16B;
+    font-size:400%;
+    float: right;
+    border-style: outset;
+    padding: 2%;
+}
+
+nav {
+    background: #dde2df;
+    box-shadow: 1px 1px 5px #333;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+    padding: 3%;
+}
+
+nav li {
+    display: inline;
+    padding-right: 7%;
+}
+
+nav a {
+    font-family: Georgia, 'Times new roman', serif;
+    font-size:160%;
+    color: #0f8181;
+    text-decoration: none;
+    
+}
+
+section a{
+    text-decoration:none;
+}
+
+main {
+    padding: 1%;
+    background:  #f5f0f080;
+    color: rgb(51, 51, 51);
+    text-align: justify;
+   
+    overflow: auto; 
+}
+
+.advice, section, .pics {
+    float: left;
+}
+
+.advice {
+    width: 20%;
+    background: hsl(148, 12%, 72%);
+    padding: 1%;
+    text-align: center;
+}
+
+section img{
+    float:left;
+    margin-right: 40px;
+    margin-bottom: 10px;
+}
+section.Plan {
+    float: left;
+    width: 56%;
+    padding: 50px;
+}
+
+
+
+ aside.Plan {
+     float: left;
+     width: 20%;
+    border: 1px dashed black;
+    padding: 50px;
+    margin-top: 50px;
+        
+    }
+
+
+section {
+    width: 50%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+section a{
+    color:black
+}
+
+
+aside ul {
+    list-style: none;
+    padding: 0;
+}
+
+aside li {
+    padding: 20px;
+}
+
+aside a,footer a, aside h2 {
+    text-decoration: none;
+    color: #0f8181;
+}
+
+aside a:hover, footer a:hover,nav a:hover  {
+    color: #810f72;
+}
+
+
+p.clear {
+    clear: left;
+  }
+
+.pics {
+    width: 24%;
+}
+
+.pics h2{
+    padding: 5%;
+    border: 2px dashed  #0f8181;
+}
+
+.pics img {
+    width: 100%;
+    margin-bottom: 0px;
+    
+}
+.pics p {
+    font-size: 160%;
+    margin-bottom:20px;
+    color: #0f8181;
+}
+
+
+footer{
+    margin-left:7%;
+}
+.back{
+   margin-right:20%;
+    float:right;
+}
+
+
+    @media screen and (max-width: 800px) {
+
+        
+        body {
+            background-image:none;
+        }
+        #wrap {
+            min-width: 600px;
+            width: 80%;
+        }
+        
+        section, section.Plan {
+            float: none;
+            width: 90%;
+            padding:0;
+        }
+        header img {
+            display: none;
+        }
+        
+       
+        nav li{
+            display: block;
+            padding: 5% 0;
+            border-bottom: 1px solid #666;
+            
+            text-align: center;
+        }
+        nav li:last-child {
+            border-bottom: none;
+        }
+        nav{
+            background-color: #F2D16B;
+        }
+      
+     
+        .advice, .pics, header h1, aside{
+            display: none;
+        }
+        
+
+       
+         
+    }
+    
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
